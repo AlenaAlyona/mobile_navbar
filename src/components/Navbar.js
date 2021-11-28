@@ -31,11 +31,11 @@ function Navbar() {
         <a href="#reviews">Reviews</a>
         <a href="#help">Help</a>
         <a href="#account">Account</a>
-        <img src={Search} className="icon" alt="search icon"></img>
+        <img src={Search} className="icon" id="search" alt="search icon"></img>
         <img
           src={Cart}
-          fill="FFF"
           className="icon"
+          id="cart"
           alt="shopping cart icon"
         ></img>
       </div>
