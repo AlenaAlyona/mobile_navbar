@@ -1,6 +1,6 @@
-import "./mobileDropdown.css";
+import "./mobileMenu.css";
 
-function MobileDropdown() {
+function MobileMenu() {
   return (
     <div className="mobile-dropdown">
       <div className="mpbile-swiper">Slideshow</div>
@@ -85,4 +85,4 @@ function MobileDropdown() {
   );
 }
 
-export default MobileDropdown;
+export default MobileMenu;
