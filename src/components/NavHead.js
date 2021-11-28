@@ -3,7 +3,7 @@ import Logo from "../assets/logo.svg";
 import Search from "../assets/search-icon.svg";
 import Cart from "../assets/cart-icon.svg";
 
-function navhead(props) {
+function NavHead(props) {
   return (
     <div className="navhead">
       <div className="navhead-left">
@@ -43,4 +43,4 @@ function navhead(props) {
   );
 }
 
-export default navhead;
+export default NavHead;
