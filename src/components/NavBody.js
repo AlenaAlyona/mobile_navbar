@@ -36,60 +36,60 @@ function NavBody() {
       </button>
       <div className="dropdown-container" id="sports-section">
         <div>
+          <span>25 products</span>
           <a href="#running">Running socks</a>
-          <span>25 products</span>
         </div>
         <div>
+          <span>25 products</span>
           <a href="#padel">Padel socks</a>
-          <span>25 products</span>
         </div>
         <div>
+          <span>25 products</span>
           <a href="#ski">Ski socks</a>
-          <span>25 products</span>
         </div>
         <div>
+          <span>25 products</span>
           <a href="#hiking">Hiking socks</a>
-          <span>25 products</span>
         </div>
         <div>
+          <span>25 products</span>
           <a href="#recovery">Recovery socks</a>
-          <span>25 products</span>
         </div>
         <div>
+          <span>25 products</span>
           <a href="#fitness">Fitness socks</a>
-          <span>25 products</span>
         </div>
         <div>
+          <span>25 products</span>
           <a href="#golf">Golf socks</a>
-          <span>25 products</span>
         </div>
         <div>
+          <span>25 products</span>
           <a href="#tennis">Tennis socks</a>
-          <span>25 products</span>
         </div>
         <div>
+          <span>25 products</span>
           <a href="#rowing">Rowing socks</a>
-          <span>25 products</span>
         </div>
         <div>
+          <span>25 products</span>
           <a href="#hockey">Hockey socks</a>
-          <span>25 products</span>
         </div>
         <div>
+          <span>25 products</span>
           <a href="#baseball">Baseball socks</a>
-          <span>25 products</span>
         </div>
         <div>
+          <span>25 products</span>
           <a href="#other">Other sports socks</a>
-          <span>25 products</span>
         </div>
         <div>
+          <span>25 products</span>
           <a href="#cycling">Cycling socks</a>
-          <span>25 products</span>
         </div>
         <div>
-          <a href="#football">Football socks</a>
           <span>25 products</span>
+          <a href="#football">Football socks</a>
         </div>
       </div>
 
