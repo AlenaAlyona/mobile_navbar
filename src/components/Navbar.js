@@ -1,44 +1,19 @@
+import React, { useState } from "react";
 import "./navbar.css";
-import Logo from "../assets/logo.svg";
-import Search from "../assets/search-icon.svg";
-import Cart from "../assets/cart-icon.svg";
+import NavHead from "./NavHead";
+import NavBody from "./NavBody";
 
 function Navbar() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <div className="navbar">
-      <div className="navbar-left">
-        <div className="hamburger-menu">
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div className="close-btn" id="close"></div>
-        <a href="#home">
-          <img className="logo" src={Logo} alt="STOX logo" />
-        </a>
-      </div>
-
-      <div className="navbar-middle">
-        <a href="#everyday">Everyday</a>
-        <a href="#sports">Sports</a>
-        <a href="#travel">Travel</a>
-        <a href="#medical">Medical</a>
-      </div>
-
-      <div className="navbar-right">
-        <a href="#ambassadors">Ambassadors</a>
-        <a href="#technology">Technology</a>
-        <a href="#reviews">Reviews</a>
-        <a href="#help">Help</a>
-        <a href="#account">Account</a>
-        <img src={Search} className="icon" id="search" alt="search icon"></img>
-        <img
-          src={Cart}
-          className="icon"
-          id="cart"
-          alt="shopping cart icon"
-        ></img>
-      </div>
+      <NavHead
+        showMenu={() => {
+          setMenuOpen(!menuOpen);
+        }}
+      />
+      {menuOpen ? <NavBody /> : ""}
     </div>
   );
 }
