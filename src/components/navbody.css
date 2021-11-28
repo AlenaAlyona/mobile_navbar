@@ -1,0 +1,10 @@
+.navbody {
+  background: #fff;
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  padding-bottom: 16vw;
+  z-index: 3;
+  top: 13vw;
+  position: fixed;
+}
