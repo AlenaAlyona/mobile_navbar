@@ -7,11 +7,17 @@ function NavBody() {
 
     for (let i = 0; i < dropdown.length; i++) {
       dropdown[i].addEventListener("click", function () {
+        const arrow = dropdown[i].querySelector(".arrow");
+        console.log(arrow);
         const dropdownContent = this.nextElementSibling;
         if (dropdownContent.style.display === "block") {
           dropdownContent.style.display = "none";
+          arrow.style.transform = "rotate(45deg)";
+          arrow.style.borderColor = "#808080";
         } else {
           dropdownContent.style.display = "block";
+          arrow.style.transform = "rotate(-135deg)";
+          arrow.style.borderColor = "#000";
         }
       });
     }

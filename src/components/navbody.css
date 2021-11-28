@@ -36,6 +36,8 @@
   width: 100%;
   border-width: 1px;
   border-color: rgb(229, 229, 229);
+  display: flex;
+  justify-content: space-between;
 }
 
 .dropdown-container {
@@ -50,10 +52,21 @@ span {
   letter-spacing: 0.15em;
   float: right;
   margin-top: 7vw;
+  padding-right: 11vw;
 }
 
 .dropdown-container a,
 .dropdown-container div {
   font-weight: 400;
   letter-spacing: 0.15em;
+}
+
+.arrow {
+  border: solid;
+  border-width: 0 0.5vw 0.5vw 0;
+  display: inline-block;
+  padding: 0.5vw;
+  border-color: #808080;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }
