@@ -1,24 +1,40 @@
+import React, { useEffect } from "react";
 import "./navbody.css";
 
 function NavBody() {
+  useEffect(() => {
+    const dropdown = document.getElementsByClassName("dropdown-btn");
+
+    for (let i = 0; i < dropdown.length; i++) {
+      dropdown[i].addEventListener("click", function () {
+        const dropdownContent = this.nextElementSibling;
+        if (dropdownContent.style.display === "block") {
+          dropdownContent.style.display = "none";
+        } else {
+          dropdownContent.style.display = "block";
+        }
+      });
+    }
+  });
+
   return (
     <div className="navbody">
       <div className="navbody-swiper">Slideshow</div>
       <a href="#now">Shop now</a>
-      <button class="dropdown-btn">
+      <button className="dropdown-btn">
         Everyday
-        <i class="arrow"></i>
+        <i className="arrow"></i>
       </button>
-      <div class="dropdown-container">
+      <div className="dropdown-container">
         <a href="#men">Men</a>
         <a href="#women">Women</a>
       </div>
 
-      <button class="dropdown-btn">
+      <button className="dropdown-btn">
         Sports
-        <i class="arrow"></i>
+        <i className="arrow"></i>
       </button>
-      <div class="dropdown-container" id="sports-section">
+      <div className="dropdown-container" id="sports-section">
         <div>
           <a href="#running">Running socks</a>
           <span>25 products</span>
