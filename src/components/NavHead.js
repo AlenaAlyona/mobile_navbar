@@ -7,14 +7,18 @@ function NavHead(props) {
   return (
     <div className="navhead">
       <div className="navhead-left">
-        <div className="hamburger-menu" onClick={props.showMenu}>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div className="close-btn" id="close"></div>
+        {props.menuOpen ? (
+          <div className="close-btn" onClick={props.showMenu}></div>
+        ) : (
+          <div className="hamburger-menu" onClick={props.showMenu}>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        )}
+
         <a href="#home">
-          <img className="logo" src={Logo} alt="STOX logo" />
+          <img className="logo" src={Logo} alt="STOX logo" fill="FFF" />
         </a>
       </div>
 
