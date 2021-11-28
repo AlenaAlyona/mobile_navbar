@@ -1,9 +1,9 @@
-import "./mobileMenu.css";
+import "./navbody.css";
 
-function MobileMenu() {
+function NavBody() {
   return (
-    <div className="mobile-dropdown">
-      <div className="mpbile-swiper">Slideshow</div>
+    <div className="navbody">
+      <div className="navbody-swiper">Slideshow</div>
       <a href="#now">Shop now</a>
       <button class="dropdown-btn">
         Everyday
@@ -85,4 +85,4 @@ function MobileMenu() {
   );
 }
 
-export default MobileMenu;
+export default NavBody;
