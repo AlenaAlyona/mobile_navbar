@@ -12,6 +12,7 @@ function Navbar() {
         showMenu={() => {
           setMenuOpen(!menuOpen);
         }}
+        menuOpen={menuOpen}
       />
       {menuOpen ? <NavBody /> : ""}
     </div>
