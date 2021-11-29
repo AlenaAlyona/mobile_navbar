@@ -1,0 +1,94 @@
+.swiper-wrapper {
+  overflow: hidden;
+}
+.swiper {
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-points-x: repeat(53.3vw);
+  scroll-snap-type: mandatory;
+}
+.swiper > .item {
+  flex-shrink: 0;
+  width: 40vw;
+  height: 53.3vw;
+  text-align: start;
+
+  background: #f0f0f0;
+  margin-right: 15px;
+  border-radius: 5px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.swiper::-webkit-scrollbar {
+  display: none;
+}
+.item {
+  position: relative;
+  width: 40vw;
+  height: 53.3vw;
+  overflow: hidden;
+  background: linear-gradient(
+    rgba(18, 18, 18, 0),
+    rgba(18, 18, 18, 0),
+    rgba(18, 18, 18, 0.4)
+  );
+  margin: 4vw 4vw 4vw 0;
+}
+
+.item:first-child {
+  margin-left: 2vw;
+}
+
+.item::after {
+  content: attr(title);
+  content: attr(title);
+  display: block;
+  position: absolute;
+  bottom: 4vw;
+  left: 4vw;
+  font-size: 4vw;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: #fff;
+  z-index: 10;
+}
+
+.item-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.one {
+  background-image: url("https://images.ctfassets.net/kpep6ikljkgq/5aoFkTLhEj9VltOdWgvbJn/3665752dc24a52cdc4d0f65770c2e4e5/Daily_Merino_Socks_Women_Silver_Grey_-_White__1_.jpg");
+}
+
+.two {
+  background-image: url("https://images.ctfassets.net/kpep6ikljkgq/5IJo80xYDMYxCttvmboQF6/e2ce236e8ccb491656f4d0700648d284/Sports_Socks_Mannen_DONKERBLAUW___GEEL.jpg?w=800&q=50");
+}
+
+.three {
+  background-image: url("https://images.ctfassets.net/kpep6ikljkgq/2HSje3uIKbguHHRwZ2eq1m/98ffb09a642f87018382a3ef715e028f/model.jpg?w=800&q=50");
+}
+
+.four {
+  background-image: url("https://images.ctfassets.net/kpep6ikljkgq/7M3CEKsAN1RczcRTb3e729/3faaa8311a1de0b63a20606a52fe3016/Travel_Socks_Mannen_DONKERBLAUW__1_.jpg?w=800&q=50");
+}
+
+.five {
+  background-image: url("https://images.ctfassets.net/kpep6ikljkgq/5LT5kRvnYp9v5q8rVnauvL/85c0ff8a50ccaa0d8c1e92f1d0a3c4bc/Recovery_Socks_Men_-_Grey_Blue_Insta.jpg");
+}
+
+.six {
+  background-image: url("https://images.ctfassets.net/kpep6ikljkgq/27bjEQP2M9iaLKVyaQekFq/6612ec993012e9a155926b2fabd168ed/Outdoor_Socks_Women_-_Grey_Beige_1.jpg");
+}
+
+.seven {
+  background-image: url("https://images.ctfassets.net/kpep6ikljkgq/4DyG8h0DACR88nVOQfLJmZ/01b73fda65953d37bb30220c316992b3/8.jpg");
+}
