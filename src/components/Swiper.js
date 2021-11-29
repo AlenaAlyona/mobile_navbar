@@ -2,28 +2,28 @@ import "./swiper.css";
 
 function Swiper() {
   return (
-    <div class="swiper-wrapper">
-      <div class="swiper">
-        <div class="item" title="Everyday">
-          <div class="item-inner one"></div>
+    <div className="swiper-wrapper">
+      <div className="swiper">
+        <div className="item" title="Everyday">
+          <div className="item-inner one"></div>
         </div>
-        <div class="item" title="Sports">
-          <div class="item-inner two"></div>
+        <div className="item" title="Sports">
+          <div className="item-inner two"></div>
         </div>
-        <div class="item" title="Skiing">
-          <div class="item-inner three"></div>
+        <div className="item" title="Skiing">
+          <div className="item-inner three"></div>
         </div>
-        <div class="item" title="Travel">
-          <div class="item-inner four"></div>
+        <div className="item" title="Travel">
+          <div className="item-inner four"></div>
         </div>
-        <div class="item" title="Recovery">
-          <div class="item-inner five"></div>
+        <div className="item" title="Recovery">
+          <div className="item-inner five"></div>
         </div>
-        <div class="item" title="Hiking">
-          <div class="item-inner six"></div>
+        <div className="item" title="Hiking">
+          <div className="item-inner six"></div>
         </div>
-        <div class="item" title="Medical">
-          <div class="item-inner seven"></div>
+        <div className="item" title="Medical">
+          <div className="item-inner seven"></div>
         </div>
       </div>
     </div>
