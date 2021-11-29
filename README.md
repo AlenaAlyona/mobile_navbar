@@ -1,3 +1,15 @@
+# Mobile menu challenge
+
+[alena-alyona-stox-navbar.netlify.app](https://alena-alyona-stox-navbar.netlify.app/)<br/>
+:phone: The task was to recreate the mobile menu from [STOX energy socks](www.stoxenergy.com)<br/>
+![](./src/assets/readme/desktop.gif)<br/>
+![](./src/assets/readme/mobile.gif)<br/>
+
+<strong>Stack:</strong><br/>
+
+- React
+- CSS
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
