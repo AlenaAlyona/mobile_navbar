@@ -11,6 +11,10 @@
   overflow: auto;
 }
 
+button {
+  border: none;
+}
+
 .navbody a,
 .dropdown-btn {
   display: block;
@@ -30,8 +34,6 @@
 .dropdown-btn {
   background: #fff;
   width: 100%;
-  border-width: 1px;
-  border-color: rgb(229, 229, 229);
   display: flex;
   justify-content: space-between;
 }
