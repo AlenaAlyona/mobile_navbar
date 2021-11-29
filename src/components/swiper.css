@@ -29,11 +29,6 @@
   width: 40vw;
   height: 53.3vw;
   overflow: hidden;
-  background: linear-gradient(
-    rgba(18, 18, 18, 0),
-    rgba(18, 18, 18, 0),
-    rgba(18, 18, 18, 0.4)
-  );
   margin: 4vw 4vw 4vw 0;
 }
 
@@ -65,6 +60,16 @@
   background-repeat: no-repeat;
 }
 
+.gradient {
+  position: absolute;
+  inset: 0px;
+  background: linear-gradient(
+    rgba(18, 18, 18, 0),
+    rgba(18, 18, 18, 0),
+    rgba(18, 18, 18, 0.4)
+  );
+  z-index: 9;
+}
 .one {
   background-image: url("https://images.ctfassets.net/kpep6ikljkgq/5aoFkTLhEj9VltOdWgvbJn/3665752dc24a52cdc4d0f65770c2e4e5/Daily_Merino_Socks_Women_Silver_Grey_-_White__1_.jpg");
 }
