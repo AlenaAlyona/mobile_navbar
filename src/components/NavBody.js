@@ -9,7 +9,6 @@ function NavBody() {
     for (let i = 0; i < dropdown.length; i++) {
       dropdown[i].addEventListener("click", function () {
         const arrow = dropdown[i].querySelector(".arrow");
-        console.log(arrow);
         const dropdownContent = this.nextElementSibling;
         if (dropdownContent.style.display === "block") {
           dropdownContent.style.display = "none";
