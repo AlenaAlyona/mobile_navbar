@@ -8,6 +8,7 @@
   z-index: 3;
   top: 13vw;
   position: fixed;
+  overflow: auto;
 }
 
 .navbody a,
