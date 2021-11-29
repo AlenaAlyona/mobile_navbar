@@ -8,11 +8,6 @@
   z-index: 3;
   top: 13vw;
   position: fixed;
-  overflow: hidden auto;
-}
-
-.navbody-swiper {
-  padding-right: 4vw;
 }
 
 .navbody a,

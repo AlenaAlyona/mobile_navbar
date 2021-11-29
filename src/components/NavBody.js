@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "./navbody.css";
+import Swiper from "./Swiper";
 
 function NavBody() {
   useEffect(() => {
@@ -25,7 +26,7 @@ function NavBody() {
 
   return (
     <div className="navbody">
-      <div className="navbody-swiper">Slideshow</div>
+      <Swiper />
       <a href="#now">Shop now</a>
       <button className="dropdown-btn">
         Everyday
